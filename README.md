@@ -21,5 +21,4 @@ Algorithm:
 - checksum (=9):  
   10 - (sum mod 10) ==>> 10 - (11 mod 10) ==>> 10 - 1 ==>> __9__
 
-
-https://github.com/Ultsi00/Luhn_algorithm_checksum/assets/60548494/003f39eb-20de-453d-bda7-2747547d2a14
+https://github.com/Ultsi00/Luhn_algorithm_checksum/assets/60548494/eacb5075-7b51-42fd-ae45-b05c4697a0eb
