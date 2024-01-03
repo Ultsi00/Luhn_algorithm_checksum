@@ -1,5 +1,9 @@
 # Luhn_algorithm_checksum  
 
+## Usage  
+Algorithm was created in the 60's. It has been widely used for example  
+verifying credit card and SSN validity.  
+  
 ## Program  
 User can:  
     1) insert a number sequence  
@@ -17,6 +21,5 @@ Algorithm:
 - checksum (=9):  
   10 - (sum mod 10) ==>> 10 - (11 mod 10) ==>> 10 - 1 ==>> __9__
 
-## Usage  
-Algorithm was created in the 60's. It has been widely used for example  
-verifying credit card and SSN validity. 
+
+https://github.com/Ultsi00/Luhn_algorithm_checksum/assets/60548494/003f39eb-20de-453d-bda7-2747547d2a14
