@@ -5,6 +5,9 @@
 
 using namespace std;
 
+/*
+    Calculates checksum from a number sequence (void processChecksum()).
+*/
 class Checker {
     public:
         const char* mStr;
@@ -13,7 +16,7 @@ class Checker {
         uint16_t mSum;
         uint8_t mChecksum;
         Checker() {}
-        ~Checker() { cout << "Destructor utilized" << endl; }
+        ~Checker() { cout << "Checker destructor utilized\n"; }
 
         inline void setString(const char* str) { mStr = str; }
 
@@ -62,12 +65,16 @@ class Checker {
         }
 };
 
+/*
+    User menu and number sequence input.
+*/
 class Selection {
     public:
         const char* mInput;
         string mInputTemp;
 
         Selection() : mInput("0") {}
+        ~Selection() { cout << "Selection destructor utilized\n"; }
 
         inline void printInstructions() {
             cout << "\nChoose an option: 1 or 2 ['q' to quit]" << endl;
